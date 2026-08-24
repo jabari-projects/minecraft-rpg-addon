@@ -1,0 +1,29 @@
+{
+  "format_version": "1.17",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "minecraft_world_rpg:fire_bomb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "minecraft:gunpowder"
+      },
+      {
+        "item": "minecraft:blaze_powder"
+      },
+      {
+        "item": "minecraft:redstone"
+      }
+    ],
+    "result": {
+      "item": "minecraft_world_rpg:fire_bomb",
+      "count": 2
+    }
+  }
+}

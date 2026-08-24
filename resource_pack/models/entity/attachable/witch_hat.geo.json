@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.witch_hat",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "helmet",
+					"parent": "root_item",
+					"pivot": [0, 10.58418, 0.63751],
+					"binding": "'head'",
+					"cubes": [
+						{"origin": [-4, -1, -4], "size": [8, 8, 8], "inflate": 1, "uv": [0, 55]},
+						{"origin": [-6, 13.19159, -3.65732], "size": [12, 1, 12], "inflate": -5, "pivot": [0, 14.69159, 2.34268], "rotation": [-32.5, 0, 0], "uv": [48, 42]},
+						{"origin": [-6, 11.8101, -4.8294], "size": [12, 1, 12], "inflate": -5, "pivot": [0, 13.3101, 1.1706], "rotation": [-10, 0, 0], "uv": [48, 29]},
+						{"origin": [-6, 10.8101, -4.8294], "size": [12, 1, 12], "inflate": -4, "pivot": [0, 12.3101, 1.1706], "rotation": [-10, 0, 0], "uv": [48, 16]},
+						{"origin": [-6, 9.90162, -5.49895], "size": [12, 1, 12], "inflate": -3, "pivot": [0, 11.40162, 0.50105], "rotation": [-7.5, 0, 0], "uv": [0, 42]},
+						{"origin": [-6, 8.96004, -6.08486], "size": [12, 1, 12], "inflate": -2, "pivot": [0, 10.46004, -0.08486], "rotation": [-5, 0, 0], "uv": [0, 29]},
+						{"origin": [-6, 8, -6], "size": [12, 1, 12], "inflate": -1, "uv": [0, 16]},
+						{"origin": [-8, 8, -8], "size": [16, 0, 16], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

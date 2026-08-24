@@ -1,0 +1,125 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.shadow_wolf.idle": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            "math.sin(query.life_time * 24.0) * 0.5",
+            0,
+            0
+          ]
+        },
+        "upperBody": {
+          "rotation": [
+            "math.sin(query.life_time * 24.0 + 90.0) * 0.4",
+            0,
+            0
+          ]
+        },
+        "tail": {
+          "rotation": [
+            0,
+            "math.sin(query.life_time * 48.0) * 7.0",
+            0
+          ]
+        }
+      }
+    },
+    "animation.shadow_wolf.walk": {
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17) * 42.0",
+            0,
+            0
+          ]
+        },
+        "leg1": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17 + 180.0) * 42.0",
+            0,
+            0
+          ]
+        },
+        "leg2": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17 + 180.0) * 42.0",
+            0,
+            0
+          ]
+        },
+        "leg3": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17) * 42.0",
+            0,
+            0
+          ]
+        },
+        "tail": {
+          "rotation": [
+            0,
+            "math.cos(query.modified_distance_moved * 24.0) * 14.0",
+            0
+          ]
+        }
+      }
+    },
+    "animation.shadow_wolf.run": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            "math.sin(query.modified_distance_moved * 48.0) * 3.0",
+            0,
+            0
+          ]
+        },
+        "upperBody": {
+          "rotation": [
+            "math.sin(query.modified_distance_moved * 48.0 + 180.0) * 3.0",
+            0,
+            0
+          ]
+        },
+        "leg0": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 52.0) * 58.0",
+            0,
+            0
+          ]
+        },
+        "leg1": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 52.0 + 180.0) * 58.0",
+            0,
+            0
+          ]
+        },
+        "leg2": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 52.0 + 180.0) * 58.0",
+            0,
+            0
+          ]
+        },
+        "leg3": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 52.0) * 58.0",
+            0,
+            0
+          ]
+        },
+        "tail": {
+          "rotation": [
+            0,
+            "math.cos(query.modified_distance_moved * 32.0) * 20.0",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

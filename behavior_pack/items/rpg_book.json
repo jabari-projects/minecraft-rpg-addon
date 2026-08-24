@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft_world_rpg:rpg_book",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:itemGroup.name.book"
+      }
+    },
+    "components": {
+      "minecraft:icon": "rpg_book",
+      "minecraft:display_name": {
+        "value": "RPG Classes and Subclasses Guidebook"
+      },
+      "minecraft:interact_button": "Open RPG Book",
+      "minecraft:max_stack_size": 1,
+      "minecraft:allow_off_hand": true,
+      "minecraft:hover_text_color": "aqua"
+    }
+  }
+}

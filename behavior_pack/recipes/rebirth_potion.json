@@ -1,0 +1,29 @@
+{
+  "format_version": "1.17",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "minecraft_world_rpg:rebirth_potion"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:potion"
+      },
+      {
+        "item": "minecraft:nether_star"
+      },
+      {
+        "item": "minecraft:emerald"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      }
+    ],
+    "result": {
+      "item": "minecraft_world_rpg:rebirth_potion",
+      "count": 1
+    }
+  }
+}

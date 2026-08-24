@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "RPG Classes and Subclasses Resources",
+    "description": "Full RPG class, subclass, weapon, armor, spell, and XP tree system.",
+    "uuid": "e78aac51-6f31-4d79-8d4d-9d418be68c86",
+    "version": [1, 0, 3],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "ada0f625-2f85-4bb2-8fa5-86ff3fc5c81f",
+      "version": [1, 0, 3]
+    }
+  ]
+}

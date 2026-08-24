@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "myname:necro_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "necro_sword",
+			"minecraft:damage": 13,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"speed": 3,
+						"block": "cobweb"
+					},
+					{
+						"speed": 8,
+						"block": {
+							"tags": "query.any_tag('metal')"
+						}
+					}
+				]
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 50
+			},
+			"minecraft:entity_placer": {
+				"entity": "bat"
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft_world_rpg:vamp_boots"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "L L",
+      "IRI"
+    ],
+    "key": {
+      "L": { "item": "minecraft:leather" },
+      "I": { "item": "minecraft:iron_ingot" },
+      "R": { "item": "minecraft:redstone" }
+    },
+    "result": {
+      "item": "myname:vamp_boots",
+      "count": 1
+    },
+    "unlock": { "context": "AlwaysUnlocked" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ui_defs": [
+    "ui/hud_screen.json",
+    "ui/ability_toggle_screen.json",
+    "ui/morph_selection_screen.json",
+    "ui/xp_tree_screen.json"
+  ]
+}

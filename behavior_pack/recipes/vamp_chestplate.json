@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft_world_rpg:vamp_chestplate"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "III",
+      "IBI",
+      "LLL"
+    ],
+    "key": {
+      "L": { "item": "minecraft:leather" },
+      "I": { "item": "minecraft:iron_ingot" },
+      "B": { "item": "minecraft:redstone_block" }
+    },
+    "result": {
+      "item": "myname:vamp_chestplate",
+      "count": 1
+    },
+    "unlock": { "context": "AlwaysUnlocked" }
+  }
+}

@@ -1,0 +1,67 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.vamp_chestplate",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 14, 0]
+				},
+				{
+					"name": "chestplate",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"binding": "'body'",
+					"cubes": [
+						{"origin": [-4, 3, -2], "size": [8, 11, 4], "inflate": 1.01, "uv": [36, 0]},
+						{"origin": [-5, 2, -4], "size": [10, 12, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "arm_right",
+					"pivot": [-5, 12, 0]
+				},
+				{
+					"name": "arm_plate_right",
+					"parent": "arm_right",
+					"pivot": [-5, 12, 0],
+					"binding": "'rightarm'",
+					"cubes": [
+						{"origin": [-9, 10, -4], "size": [5, 5, 8], "uv": [4, 25]},
+						{"origin": [-8.25, 9, -3], "size": [3.25, 1, 6], "uv": [38, 38]},
+						{"origin": [-8.25, 2, -2.2], "size": [4.25, 5, 4.54], "uv": [40, 27]},
+						{"origin": [-9, 2, -1], "size": [1, 1, 2], "uv": [37, 16]},
+						{"origin": [-9, 4, -1], "size": [1, 1, 2], "uv": [37, 16]},
+						{"origin": [-9, 6, -1], "size": [1, 1, 2], "uv": [1, 38]}
+					]
+				},
+				{
+					"name": "arm_left",
+					"pivot": [5, 12, 0]
+				},
+				{
+					"name": "arm_plate_left",
+					"parent": "arm_left",
+					"pivot": [5, 12, 0],
+					"binding": "'leftarm'",
+					"cubes": [
+						{"origin": [5, 2, -2.2], "size": [3.25, 5, 4.54], "uv": [41, 27]},
+						{"origin": [8, 2, -1], "size": [1, 1, 2], "uv": [37, 16]},
+						{"origin": [8, 4, -1], "size": [1, 1, 2], "uv": [37, 16]},
+						{"origin": [8, 6, -1], "size": [1, 1, 2], "uv": [1, 38]},
+						{"origin": [5, 9, -3], "size": [3.25, 1, 6], "uv": [38, 38]},
+						{"origin": [4, 10, -4], "size": [5, 5, 8], "uv": [4, 25]}
+					]
+				}
+			]
+		}
+	]
+}

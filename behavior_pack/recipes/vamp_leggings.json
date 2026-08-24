@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft_world_rpg:vamp_leggings"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "III",
+      "IRI",
+      "LLL"
+    ],
+    "key": {
+      "L": { "item": "minecraft:leather" },
+      "I": { "item": "minecraft:iron_ingot" },
+      "R": { "item": "minecraft:redstone" }
+    },
+    "result": {
+      "item": "myname:vamp_leggings",
+      "count": 1
+    },
+    "unlock": { "context": "AlwaysUnlocked" }
+  }
+}

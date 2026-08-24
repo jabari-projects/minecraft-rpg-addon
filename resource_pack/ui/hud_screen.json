@@ -1,0 +1,35 @@
+{
+  "namespace": "hud",
+  "mob_effects_renderer": {
+    "type": "custom",
+    "renderer": "mob_effects_renderer",
+    "ignored": true,
+    "visible": false,
+    "alpha": 0,
+    "propagate_alpha": true,
+    "size": [0, 0],
+    "max_size": [0, 0],
+    "offset": [-10000, -10000],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": -100
+  },
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "remove",
+        "where": {
+          "control_name": "mob_effects_renderer"
+        }
+      },
+      {
+        "array_name": "controls",
+        "operation": "remove",
+        "where": {
+          "control_name": "mob_effects_renderer@mob_effects_renderer"
+        }
+      }
+    ]
+  }
+}

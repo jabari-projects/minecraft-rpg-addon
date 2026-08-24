@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "RPG Classes and Subclasses",
+    "description": "Full RPG class, subclass, weapon, armor, spell, and XP tree system.",
+    "uuid": "f868ab9f-d758-46d4-b0e8-de2fb85a433b",
+    "version": [1, 0, 3],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "00f534da-71f4-4cf9-972c-dbb3876b60bb",
+      "version": [1, 0, 3]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "1682e32a-aafd-47c6-bd65-3824ab8442ac",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "e78aac51-6f31-4d79-8d4d-9d418be68c86",
+      "version": [1, 0, 3]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

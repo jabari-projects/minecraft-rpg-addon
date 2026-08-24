@@ -1,0 +1,52 @@
+{
+  "namespace": "minecraft_world_rpg",
+  "morph_selection_screen": {
+    "type": "screen",
+    "controls": [
+      {
+        "root_panel": {
+          "type": "panel",
+          "size": ["100%", "100%"],
+          "controls": [
+            {
+              "title": {
+                "type": "label",
+                "text": "Morph Selection",
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "offset": [0, 20]
+              }
+            },
+            {
+              "vampire_morph": {
+                "type": "label",
+                "text": "Bat Morph: Placeholder Active",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, -24]
+              }
+            },
+            {
+              "werewolf_morph": {
+                "type": "label",
+                "text": "Shadow Wolf Morph: Placeholder Active",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, 0]
+              }
+            },
+            {
+              "banshee_morph": {
+                "type": "label",
+                "text": "Banshee Morph: Placeholder Active",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, 24]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

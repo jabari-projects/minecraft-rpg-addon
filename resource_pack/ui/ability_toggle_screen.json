@@ -1,0 +1,70 @@
+{
+  "namespace": "minecraft_world_rpg",
+  "ability_toggle_screen": {
+    "type": "screen",
+    "controls": [
+      {
+        "root_panel": {
+          "type": "panel",
+          "size": ["100%", "100%"],
+          "controls": [
+            {
+              "title": {
+                "type": "label",
+                "text": "Class Abilities",
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "offset": [0, 20]
+              }
+            },
+            {
+              "slot_1": {
+                "type": "label",
+                "text": "Slot 1: Primary Ability Toggle",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, -48]
+              }
+            },
+            {
+              "slot_2": {
+                "type": "label",
+                "text": "Slot 2: Primary Ability Toggle",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, -24]
+              }
+            },
+            {
+              "slot_3": {
+                "type": "label",
+                "text": "Slot 3: Primary Ability Toggle",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, 0]
+              }
+            },
+            {
+              "slot_4": {
+                "type": "label",
+                "text": "Slot 4: Primary Ability Toggle",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, 24]
+              }
+            },
+            {
+              "slot_5": {
+                "type": "label",
+                "text": "Slot 5: Primary Ability Toggle",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, 48]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft_world_rpg:wolf_bite",
+      "render_controllers": [
+        "controller.render.minecraft_world_rpg.custom_default"
+      ],
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/items/wolf_bite",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.minecraft_world_rpg.invisible_held_item"
+      },
+      "scripts": {
+        "scale": "0.0"
+      }
+    }
+  }
+}

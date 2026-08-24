@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "myname:vampire_troops",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/vampire_troops"
+      },
+      "geometry": {
+        "default": "geometry.vampire_troops"
+      },
+      "scripts": {
+        "scale": "0.9375",
+        "animate": [
+          "controller_general",
+          "controller_move"
+        ]
+      },
+      "animations": {
+        "general": "animation.vampire_troops.general",
+        "casting": "animation.vampire_troops.casting",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.vampire_troops.move",
+        "celebrating": "animation.humanoid.celebrating",
+        "controller_general": "controller.animation.evoker.general",
+        "controller_move": "controller.animation.villager.move"
+      },
+      "particle_effects": {
+        "spell": "minecraft:evoker_spell"
+      },
+      "render_controllers": [
+        "controller.render.minecraft_world_rpg.vampire_troops"
+      ]
+    }
+  }
+}

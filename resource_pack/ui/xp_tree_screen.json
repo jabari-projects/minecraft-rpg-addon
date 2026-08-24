@@ -1,0 +1,52 @@
+{
+  "namespace": "minecraft_world_rpg",
+  "xp_tree_screen": {
+    "type": "screen",
+    "controls": [
+      {
+        "root_panel": {
+          "type": "panel",
+          "size": ["100%", "100%"],
+          "controls": [
+            {
+              "title": {
+                "type": "label",
+                "text": "Skill Tree",
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "offset": [0, 20]
+              }
+            },
+            {
+              "public_tab": {
+                "type": "label",
+                "text": "Public Skills: XP Tree Wired",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, -28]
+              }
+            },
+            {
+              "class_tab": {
+                "type": "label",
+                "text": "Class Skills: Class-Aware XP Unlocks",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, 0]
+              }
+            },
+            {
+              "subclass_tab": {
+                "type": "label",
+                "text": "Subclass Skills: Subclass-Aware XP Unlocks",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, 28]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

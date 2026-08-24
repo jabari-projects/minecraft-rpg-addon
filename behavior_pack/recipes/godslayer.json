@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "minecraft_world_rpg:godslayer" },
+    "tags": ["crafting_table"],
+    "pattern": [" W ", "SNS", " O "],
+    "key": {
+      "W": { "item": "minecraft:wither_skeleton_skull" },
+      "S": { "item": "minecraft:obsidian" },
+      "N": { "item": "minecraft:nether_star" },
+      "O": { "item": "minecraft:netherite_ingot" }
+    },
+    "result": { "item": "myname:godslayer", "count": 1 },
+    "unlock": { "context": "AlwaysUnlocked" }
+  }
+}

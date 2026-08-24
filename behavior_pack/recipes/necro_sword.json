@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "minecraft_world_rpg:necro_sword" },
+    "tags": ["crafting_table"],
+    "pattern": [" D ", "ONO", " B "],
+    "key": {
+      "D": { "item": "minecraft:dragon_head" },
+      "O": { "item": "minecraft:obsidian" },
+      "N": { "item": "minecraft:netherite_ingot" },
+      "B": { "item": "minecraft:blaze_rod" }
+    },
+    "result": { "item": "myname:necro_sword", "count": 1 },
+    "unlock": { "context": "AlwaysUnlocked" }
+  }
+}

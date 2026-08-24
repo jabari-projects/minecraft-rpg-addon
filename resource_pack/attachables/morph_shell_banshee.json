@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft_world_rpg:morph_shell_banshee",
+      "render_controllers": [
+        "controller.render.minecraft_world_rpg.morph_banshee_shell"
+      ],
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/morph_banshee/morph_banshee",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.morph_banshee"
+      },
+      "animations": {
+        "move": "animation.morph_banshee.move"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ],
+        "scale": "0.4"
+      }
+    }
+  }
+}

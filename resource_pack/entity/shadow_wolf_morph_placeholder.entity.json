@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft_world_rpg:shadow_wolf_morph_placeholder",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/shadow_wolf/shadow_wolf"
+      },
+      "geometry": {
+        "default": "geometry.shadow_wolf"
+      },
+      "render_controllers": [
+        "controller.render.minecraft_world_rpg.shadow_wolf"
+      ],
+      "animations": {
+        "idle": "animation.shadow_wolf.idle",
+        "walk": "animation.shadow_wolf.walk",
+        "run": "animation.shadow_wolf.run",
+        "move_controller": "controller.animation.minecraft_world_rpg.shadow_wolf.move"
+      },
+      "scripts": {
+        "animate": [
+          "move_controller"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.morph_banshee.move": {
+			"anim_time_update": "query.modified_distance_moved",
+			"loop": true,
+			"bones": {
+				"leftwing": {
+					"position": [0, "-1.0 - this", "2.0 - this"],
+					"rotation": ["27.0 - this", "-(27.0 + math.cos(query.life_time * 916.8) * 9.0) - this", "-27.0 - this"]
+				},
+				"leg0": {
+					"rotation": ["variable.tcos0 * 1.4 + 36.0", 0, 0]
+				},
+				"rightarm": {
+					"rotation": ["query.is_charging ? (216.0 - this) : 0.0", 0, 0]
+				},
+				"rightwing": {
+					"position": [0, "-1.0 - this", "2.0 - this"],
+					"rotation": ["27.0 - this", "27.0 + math.cos(query.life_time * 916.8) * 9.0 - this", "27.0 - this"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,120 @@
+{
+  "resource_pack_name": "RPG Classes and Subclasses Resources",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "rpg_book": {
+      "textures": "textures/items/rpg_book"
+    },
+    "vampire_bite": {
+      "textures": "textures/items/vampire_bite"
+    },
+    "bat_morph": {
+      "textures": "textures/items/bat_morph"
+    },
+    "summon_vampire_troops": {
+      "textures": "textures/items/summon_vampire_troops"
+    },
+    "compel": {
+      "textures": "textures/items/compel"
+    },
+    "wolf_bite": {
+      "textures": "textures/items/wolf_bite"
+    },
+    "werewolf_roar": {
+      "textures": "textures/items/werewolf_roar"
+    },
+    "shadow_wolf_morph": {
+      "textures": "textures/items/shadow_wolf_morph"
+    },
+    "banshee_invisibility": {
+      "textures": "textures/items/banshee_invisibility"
+    },
+    "banshee_phase": {
+      "textures": "textures/items/banshee_invisibility"
+    },
+    "sonic_scream": {
+      "textures": "textures/items/sonic_scream"
+    },
+    "banshee_morph": {
+      "textures": "textures/items/banshee_morph"
+    },
+    "switch_throw": {
+      "textures": "textures/items/switch_throw"
+    },
+    "tenacity_charge": {
+      "textures": "textures/items/tenacity_charge"
+    },
+    "dagger_throw": {
+      "textures": "textures/items/dagger_throw"
+    },
+    "strikethrough": {
+      "textures": "textures/items/strikethrough"
+    },
+    "smoke_bomb": {
+      "textures": "textures/items/smoke_bomb"
+    },
+    "necromancy": {
+      "textures": "textures/items/necromancy"
+    },
+    "shield_slam": {
+      "textures": "textures/items/shield_slam"
+    },
+    "fortify": {
+      "textures": "textures/items/fortify"
+    },
+    "taunt": {
+      "textures": "textures/items/taunt"
+    },
+    "witch_staff_destruction": {
+      "textures": "textures/items/witch_staff_destruction"
+    },
+    "fire_bomb": {
+      "textures": "textures/items/fire_bomb"
+    },
+    "ice_bomb": {
+      "textures": "textures/items/ice_bomb"
+    },
+    "poison_bomb": {
+      "textures": "textures/items/poison_bomb"
+    },
+    "rebirth_potion": {
+      "textures": "textures/items/rebirth_potion"
+    },
+    "witch_hat": {
+      "textures": "textures/items/witch_hat"
+    },
+    "godslayer": {
+      "textures": "textures/items/godslayer"
+    },
+    "guardian_boots": {
+      "textures": "textures/items/guardian_boots"
+    },
+    "guardian_chestplate": {
+      "textures": "textures/items/guardian_chestplate"
+    },
+    "guardian_leggings": {
+      "textures": "textures/items/guardian_leggings"
+    },
+    "necro_sword": {
+      "textures": "textures/items/necro_sword"
+    },
+    "vamp_boots": {
+      "textures": "textures/items/vamp_boots"
+    },
+    "vamp_chestplate": {
+      "textures": "textures/items/vamp_chestplate"
+    },
+    "vamp_helmet": {
+      "textures": "textures/items/vamp_helmet"
+    },
+    "vamp_leggings": {
+      "textures": "textures/items/vamp_leggings"
+    },
+    "morph_shell_bat": {
+      "textures": "textures/items/bat_morph"
+    },
+    "morph_shell_banshee": {
+      "textures": "textures/items/banshee_morph"
+    }
+  }
+}

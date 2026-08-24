@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft_world_rpg:guardian_leggings"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "PPP",
+      "I I",
+      "I I"
+    ],
+    "key": {
+      "P": { "item": "minecraft:prismarine_shard" },
+      "I": { "item": "minecraft:iron_ingot" }
+    },
+    "result": {
+      "item": "myname:guardian_leggings",
+      "count": 1
+    },
+    "unlock": { "context": "AlwaysUnlocked" }
+  }
+}

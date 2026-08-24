@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft_world_rpg:banshee_phase",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.book"
+      }
+    },
+    "components": {
+      "minecraft:icon": "banshee_phase",
+      "minecraft:display_name": {
+        "value": "Banshee Phase"
+      },
+      "minecraft:interact_button": "Toggle Ability",
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": true
+    }
+  }
+}

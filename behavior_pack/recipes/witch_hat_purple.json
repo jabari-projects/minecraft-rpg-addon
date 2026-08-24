@@ -1,0 +1,24 @@
+{
+  "format_version": "1.17",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft_world_rpg:witch_hat_purple"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "WSJ",
+      "WWW",
+      " T "
+    ],
+    "key": {
+      "W": { "item": "minecraft:purple_wool" },
+      "S": { "item": "minecraft:potion", "data": 14 },
+      "J": { "item": "minecraft:potion", "data": 9 },
+      "T": { "item": "minecraft:stick" }
+    },
+    "result": {
+      "item": "myname:witch_hat",
+      "count": 1
+    }
+  }
+}
